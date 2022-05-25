@@ -3,16 +3,16 @@
 # find_anagrams("hello", "check") --> False
 # find_anagrams("below", "elbow") --> True
 
-
+print("Wanna know if two words are anagrams? -- Enter")
 def find_anagram(word, anagram):
     # [assignment] Add your code here
 
      
 
     if(sorted(word)== sorted(anagram)):
-        return("True\nThe strings are anagrams.")
+        return("True")
     else:
-        return("False\nThe strings aren't anagrams.")        
+        return("False")        
          
          
 word = input("Input the Word: \t")
